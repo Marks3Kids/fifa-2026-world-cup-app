@@ -1,3 +1,3 @@
-# FIFA 2026 World Cup Mobile Companion App
+# 2026 World Cup Mobile Companion App
 
-A premium mobile-first web application for the FIFA 2026 World Cup.
+A premium mobile-first web application for the 2026 World Cup.
