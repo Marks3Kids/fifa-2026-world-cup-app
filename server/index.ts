@@ -46,7 +46,14 @@ async function initStripe() {
   }
 }
 
-await initStripe();
+async function start() {
+  await initStripe();
+}
+
+start().catch((err) => {
+  console.error("Failed to start server", err);
+  process.exit(1);
+});
 
 app.post(
   '/api/stripe/webhook/:uuid',
